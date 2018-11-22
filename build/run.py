@@ -42,4 +42,4 @@ wavefile.setframerate(samp_rate)
 wavefile.writeframes(b''.join(frames))
 wavefile.close()
 
-
+#play file with built in aplay, $ aplay test1.wav
